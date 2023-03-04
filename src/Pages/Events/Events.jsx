@@ -1,8 +1,9 @@
 import React from 'react';
+import logo from "../../../src/Pages/Events/fractal-1654672 1.jpg";
 
 function Events() {
     return (
-    <div>        
+    <div class="w-full h-full" src={logo}>        
         <h1 class='text-center font-bold text-6xl pt-3.5 tracking-wider'>EVENTS</h1>
         <div class="flex flex-wrap justify-center gap-4 mt-20">
             <div class="max-w-sm rounded-3xl overflow-hidden shadow-lg">
