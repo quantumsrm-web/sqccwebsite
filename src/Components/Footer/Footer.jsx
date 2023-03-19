@@ -2,9 +2,9 @@ import React from "react";
 import footerlogo from "./assets/footer logo.png";
 const Footer = () => {
   return (
-    <div className="bg-[#0F0F0F] mx-auto h-42  p-4 text-white flex justify-evenly text-sm">
+    <div className="bg-[#0F0F0F] mx-auto h-42 md:h-60 md:p-6  p-4 text-white flex justify-evenly text-sm md:text-md lg:text-xl">
       <div>
-        <img src={footerlogo} alt="" className="h-20 mt-6 ml-4" />
+        <img src={footerlogo} alt="" className="max-w-full h-auto w-[80%] transition-shadow mt-6 ml-1" />
       </div>
 
       <div className="flex flex-col grow">
@@ -21,7 +21,7 @@ const Footer = () => {
             <path d="M6 4H18V6H6zM6.707 15.707L11 11.414 11 20 13 20 13 11.414 17.293 15.707 18.707 14.293 12 7.586 5.293 14.293z"></path>
           </svg>
         </div>
-        <div className="flex justify-center mt-20 space-x-2">
+        <div className="flex justify-center mt-20 space-x-1 md:space-x-3">
           <span>
             <svg
               stroke="currentColor"
@@ -109,12 +109,14 @@ const Footer = () => {
           </span>
         </div>
         <div>
-          <p className="text-xs mt-2  text-center">COPYRIGHT 2023</p>
+          <p className="text-[8px] md:text-lg mt-10  text-center uppercase">
+            COPYRIGHT 2023- Quantum Computing Club SRM
+          </p>
         </div>
       </div>
 
-      <div className="mx-2">
-        <ul className="flex flex-col mt-4 text-xs">
+      <div className="mx-3">
+        <ul className="flex flex-col mt-4 text-[10px] md:text-lg">
           <li className="my-2">
             <span className="text-[#41FFB7] mr-1">|</span>Explore
           </li>
@@ -125,8 +127,8 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className="mx-2">
-        <ul className="flex flex-col mt-4 text-xs">
+      <div className="mx-3">
+        <ul className="flex flex-col mt-4 text-[10px] md:text-lg">
           <li className="my-2">
             <span className="text-[#41FFB7] mr-1">|</span>Contact Us
           </li>
