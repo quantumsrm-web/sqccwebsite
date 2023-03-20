@@ -4,7 +4,11 @@ const Footer = () => {
   return (
     <div className="bg-[#0F0F0F] mx-auto h-42 md:h-60 md:p-6  p-4 text-white flex justify-evenly text-sm md:text-md lg:text-xl">
       <div>
-        <img src={footerlogo} alt="" className="max-w-full h-auto w-[80%] transition-shadow mt-6 ml-1" />
+        <img
+          src={footerlogo}
+          alt=""
+          className="max-w-full h-auto w-[80%] transition-shadow mt-6 ml-1"
+        />
       </div>
 
       <div className="flex flex-col grow">
