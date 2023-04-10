@@ -39,7 +39,6 @@ const Landing = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Accusantium culpa nemo sequi minus maxime dolores mollitia totam,
               facilis, dolore quae unde provident non dolorem qui repudiandae
-             
             </p>
           </div>
           <div className="flex flex-col max-w-xs">
@@ -47,7 +46,7 @@ const Landing = () => {
             <p className="my-10">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at
               quod inventore. Rem facere eos similique itaque doloremque
-              voluptates cum odit molestiae velit, optio ratione corporis 
+              voluptates cum odit molestiae velit, optio ratione corporis
             </p>
           </div>
           <div className="flex flex-col max-w-xs">
@@ -56,7 +55,6 @@ const Landing = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
               perspiciatis consequatur, ducimus unde omnis minus aspernatur
               sequi laboriosam nisi laudantium, eligendi uptates
-             
             </p>
           </div>
         </div>
