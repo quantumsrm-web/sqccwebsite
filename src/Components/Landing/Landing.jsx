@@ -21,17 +21,13 @@ const Landing = () => {
           About us
         </p>
         <p className="mt-16 max-w-7xl mx-auto text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam non
-          nisi est sit amet facilisis magna etiam tempor. Urna id volutpat lacus
-          laoreet non. Felis imperdiet proin fermentum leo vel orci. Viverra
-          adipiscing at in tellus integer feugiat scelerisque varius. In mollis
-          nunc sed id semper risus in. Nisl suscipit adipiscing bibendum est.
-          Nec sagittis aliquam malesuada bibendum arcu vitae elementum
-          curabitur. Pretium lectus quam id leo in vitae turpis. In fermentum
-          posuere urna nec tincidunt praesent semper feugiat. Est ullamcorper
-          eget nulla facilisi etiam dignissim. Egestas purus viverra accumsan in
-          nisl nisi. Cursus risus at ultrices mi tempus imperdiet.
+         Welcome to SRM Quantum Computing Club, a community of students 
+         dedicated to research in the field of quantum computing. As a 
+         member, you'll have the opportunity to learn about quantum theory,
+         algorithms, and hardware, as well as collaborate with others on 
+         research projects. We offer workshops, seminars, and mentorship 
+         to support our members. Join us in exploring the exciting world 
+         of quantum computing!
         </p>
 
         {/* circles */}
@@ -40,25 +36,19 @@ const Landing = () => {
           <div className="flex flex-col max-w-xs">
             <p>PROVIDE</p>
             <p className="my-10">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium culpa nemo sequi minus maxime dolores mollitia totam,
-              facilis, dolore quae unde provident non dolorem qui repudiandae
+              We provide a supportive and collaborative environment to learn, grow, and make valuable connections with other students and experts in this field.
             </p>
           </div>
           <div className="flex flex-col max-w-xs">
             <p>PREPARE</p>
             <p className="my-10">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at
-              quod inventore. Rem facere eos similique itaque doloremque
-              voluptates cum odit molestiae velit, optio ratione corporis
+              We prepare our members by equipping them with the knowledge and skills necessary to excel in the field of Quantum Computing.
             </p>
           </div>
           <div className="flex flex-col max-w-xs">
             <p>PRODUCE</p>
             <p className="my-10">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-              perspiciatis consequatur, ducimus unde omnis minus aspernatur
-              sequi laboriosam nisi laudantium, eligendi uptates
+              We aim towards producing innovative research and solutions that push the boundaries of whats currently possible!
             </p>
           </div>
         </div>
@@ -71,38 +61,26 @@ const Landing = () => {
         <div className="max-w-sm text-center bg-[#1F2933] border-2 border-green-300 rounded-3xl px-8 py-4 drop-shadow-title relative left-[20%]">
           <p className="text-2xl">Quantum</p>
           <p className=" mt-8 mb-12">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-            facilis explicabo voluptatibus eum doloribus optio quas magnam natus
-            enim corporis, provident a ullam voluptas error repellat? Itaque
-            placeat dignissimos accusantium?
+            This is the Core Domain of our Club which focuses on research in the field of quantum computing. Working on cutting-edge projects related to quantum theory & algorithms, and collaborate towards producing innovative solutions that push the boundaries of this exciting field.
           </p>
         </div>
         {/* 2 */}
         <div className="max-w-sm text-center bg-[#1F2933] border-2 border-green-300 rounded-3xl px-8 py-4 drop-shadow-title  relative left-[55%]">
           <p className="text-2xl">Technical</p>
           <p className=" mt-8 mb-12">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-            facilis explicabo voluptatibus eum doloribus optio quas magnam natus
-            enim corporis, provident a ullam voluptas error repellat? Itaque
-            placeat dignissimos accusantium?
+            Our Technical Domain includes Web-Dev and AI/ML. Provinding opportunities to develop technical skills and work on projects related to these domains, along with valuable experience that can be applied in a variety of fields.
           </p>
         </div>
         <div className="max-w-sm text-center bg-[#1F2933] border-2 border-green-300 rounded-3xl px-8 py-4 drop-shadow-title  relative left-[25%]">
           <p className="text-2xl">Corporate</p>
           <p className=" mt-8 mb-12">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-            facilis explicabo voluptatibus eum doloribus optio quas magnam natus
-            enim corporis, provident a ullam voluptas error repellat? Itaque
-            placeat dignissimos accusantium?
+            Our Corporate Domain is aimed towards preparing the members for professional world. Organizing events and workshops that focuses on topics such as resume building, interview skills, and networking, providing members with the necessary tools to succeed in their careers.
           </p>
         </div>
         <div className="max-w-sm text-center bg-[#1F2933] border-2 border-green-300 rounded-3xl px-8 py-4 drop-shadow-title  relative left-[65%] mb-20">
           <p className="text-2xl">Editorial</p>
           <p className=" mt-8 mb-12">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-            facilis explicabo voluptatibus eum doloribus optio quas magnam natus
-            enim corporis, provident a ullam voluptas error repellat? Itaque
-            placeat dignissimos accusantium?
+            Our Editorial Domain focuses on Creating & Producing content related to quantum computing. Writing articles, Creating videos, and produce other forms of content to educate and inform others about the latest tech-innovations.
           </p>
         </div>
       </div>
